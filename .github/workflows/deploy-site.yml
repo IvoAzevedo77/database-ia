@@ -42,4 +42,4 @@ jobs:
             chmod 400 site_chave.pem
             ls ~ -all
             #ssh -o StrictHostKeyChecking=no -i site_chave.pem ubuntu@ec2-18-156-78-72.eu-central-1.compute.amazonaws.com "mkdir -p /var/www/html/ia"
-            scp -o StrictHostKeyChecking=no -i site_chave.pem index.html ubuntu@ec2-18-156-78-72.eu-central-1.compute.amazonaws.com:/var/www/html/ia/index.html
+            scp -o StrictHostKeyChecking=no -i site_chave.pem index.html ubuntu@ec2-18-156-78-72.eu-central-1.compute.amazonaws.com:/var/www/html/ia/
